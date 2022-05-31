@@ -1,0 +1,39 @@
+.VideoCard {
+  height: 48vh;
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.VideoCard:hover a {
+  border-radius: 50%;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 150px;
+  font-size: 20px;
+  padding: 20px 0px;
+  background-color: rgba(255, 255, 255, 0.598);
+}
+
+.VideoCard a {
+  color: white;
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 140px;
+  padding: 20px 0px;
+  background-size: 90px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.VideoCard p {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 190px;
+  padding: 10px;
+  text-align: center;
+}

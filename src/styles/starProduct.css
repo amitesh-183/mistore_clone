@@ -1,0 +1,25 @@
+.starProduct {
+  padding: 1vmax 85px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+}
+.starProduct > div:last-child {
+  display: flex;
+  padding: 0.1rem;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  width: 46%;
+}
+.star img {
+  margin: 0.1rem;
+}
+
+.starProduct img {
+  transition: 0.7s;
+}
+
+.starProduct img:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

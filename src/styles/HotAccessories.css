@@ -1,0 +1,26 @@
+.HotAccessories {
+  display: flex;
+  width: 100vw;
+  padding: 10px 180px;
+  background-color: aliceblue;
+}
+
+.HotAccessories > div:first-child > img {
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 19vw;
+  margin-right: 5px;
+  height: 600px;
+  background-color: aliceblue;
+}
+
+.HotAccessories > div:first-child > img:hover {
+  transform: translateY(-0.1vmax);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.HotAccessories > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+}

@@ -1,0 +1,66 @@
+.preNav {
+  text-decoration: none;
+  background: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  z-index: 1000;
+}
+.preNav a {
+  text-decoration: none;
+  font-size: 13px;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+  color: rgb(148, 150, 152);
+  background: #000;
+  z-index: 1000;
+}
+.preNav a:hover {
+  color: aliceblue;
+  z-index: 1000;
+}
+
+.cart:hover {
+  background: #ffffff;
+  margin-left: 500px;
+  padding-left: 1px;
+  z-index: 1000;
+}
+
+.cart a:hover {
+  color: orangered;
+}
+
+#crticn {
+  font-size: 20px;
+  cursor: pointer;
+  background: #000;
+  z-index: 1000;
+}
+
+.rnv > svg {
+  fill: aliceblue;
+  color: aliceblue;
+  z-index: 1000;
+}
+
+.preNav span {
+  color: rgb(69, 69, 69);
+  background: #000;
+  z-index: 1000;
+}
+.lnv {
+  padding-left: 99px;
+  margin-top: 3px;
+  background: #000;
+  z-index: 1000;
+}
+.rnv {
+  /* background-color: aqua; */
+  margin-left: 800px;
+  margin-top: -25px;
+  padding-right: 99px;
+  align-items: right;
+  text-align: right;
+  background: #000;
+  z-index: 1000;
+}

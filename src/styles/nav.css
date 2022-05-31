@@ -1,0 +1,65 @@
+.nv {
+  z-index: 1000;
+  display: flex;
+  padding-left: 120px;
+  overflow: hidden;
+  position: sticky;
+  text-align: center;
+}
+
+.logo {
+  background-color: orangered;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+#logoImage {
+  padding-top: 2px;
+  padding-left: 3px;
+  transform: translateX(-58px);
+  transition: 0.2s;
+}
+#logoImage:hover {
+  transform: translateX(0px);
+}
+
+.nvbr {
+  padding: 30px 20px;
+  background: rgba(0, 0, 0, 0);
+}
+.nvbr a {
+  color: rgb(0, 0, 0);
+  text-shadow: 0.2px 1px whitesmoke;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 30px 20px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0);
+}
+.nvbr a:hover {
+  color: orangered;
+  text-shadow: none;
+}
+.serch {
+  background-color: rgba(240, 248, 255, 0);
+  padding: 25px 20px;
+}
+
+.serch span {
+  background-color: transparent;
+}
+
+.serch input {
+  border: none;
+  width: 200px;
+  outline: none;
+  font-size: 16px;
+  background-color: rgba(240, 248, 255, 0);
+  margin-left: 100px;
+  border-bottom: 1px solid silver;
+}
