@@ -1,4 +1,4 @@
-#see the website
+# Go & Checkout the website
 clone project of mi-store (https://6297569d90be030056754242--mistorclon.netlify.app).
 
 # Getting Started with Create React App
