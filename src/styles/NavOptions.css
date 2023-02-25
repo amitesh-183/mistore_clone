@@ -1,0 +1,26 @@
+.NavOptions {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-evenly;
+  padding-left: 8rem;
+  padding-right: 14rem;
+  border-top: 0.2px solid rgba(128, 128, 128, 0.143);
+  padding-bottom: 7rem;
+  position: relative;
+  margin-bottom: -195px;
+  margin-top: -5px;
+  transition: ease-in-out 0.5s;
+  z-index: 7;
+}
+.NavOptions:hover {
+  justify-content: space-evenly;
+  padding-left: 8rem;
+  padding-right: 14rem;
+  border-top: 0.2px solid rgba(128, 128, 128, 0.143);
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin-top: 0px;
+  background-color: white;
+  margin-bottom: 0px;
+  position: relative;
+}

@@ -1,0 +1,175 @@
+.pFooter {
+  padding: 0px 80px;
+  background-color: aliceblue;
+}
+
+.preFooter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 1vmax;
+  padding-top: 30px;
+  color: gray;
+  background-color: aliceblue;
+}
+.preFooter div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.preFooter div:hover svg {
+  fill: rgb(44, 44, 44);
+}
+.preFooter div:hover p {
+  color: black;
+}
+
+.preFooter svg {
+  transform: scale(2) translateY(-0.2vmax);
+  fill: gray;
+  margin: 2rem;
+  transition: 0.3s;
+}
+.preFooter p {
+  text-align: left;
+  /* font-size: 10px; */
+  transition: 0.3s;
+}
+
+.preFooter2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 150px;
+  padding: 0 4vmax;
+  background-color: aliceblue;
+}
+.preFooter2 div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* flex-direction: column; */
+}
+.preFooter2 svg {
+  fill: gray;
+  margin: 1rem;
+}
+.preFooter2 svg:hover {
+  fill: rgb(78, 78, 78);
+}
+.preFooter2 span {
+  text-align: left;
+}
+
+.row-12 p {
+  width: 280px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.row-12 span {
+  font-size: 12px;
+  width: 280px;
+  font-weight: 500;
+  margin-left: -280px;
+  margin-top: 20px;
+}
+.row-22 {
+  display: flex;
+}
+.row-22 span {
+  width: 280px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-left: -270px;
+}
+.btn {
+  background-color: white;
+  padding: 2px 40px;
+  margin-top: -16px;
+  border: 1px solid rgba(161, 161, 161, 0.582);
+}
+.btn input {
+  /* margin-top: -20px; */
+  font-size: 14px;
+  outline: none;
+  color: gray;
+  text-align: left;
+  padding-right: 40px;
+  margin-left: -20px;
+}
+.btn button {
+  background-color: white;
+  color: gray;
+  padding-left: 40px;
+  margin-right: -30px;
+}
+
+.row-32 {
+  display: flex;
+  margin-left: 90px;
+}
+
+.row-32 p {
+  width: 200px;
+  font-size: 20px;
+  /* padding-left: 270px; */
+  font-weight: 500;
+}
+.row-32 span {
+  display: flex;
+  width: 200px;
+  font-size: 12px;
+  margin-top: 30px;
+  font-weight: 500;
+  margin-left: -200px;
+}
+
+/* footer --------------------- */
+.footer {
+  background-color: rgb(35, 34, 34);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 4rem 7rem;
+}
+.footer p {
+  font-size: 15px;
+  color: rgb(242, 239, 239);
+}
+.footer button {
+  padding: 0.4rem 3rem;
+  color: white;
+  font-size: 15px;
+  margin-left: 15px;
+  border: 1px solid white;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.footer button:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+.bot {
+  color: gray;
+  font-size: 13px;
+  padding: 1vmax;
+  font-weight: 500;
+  width: 370px;
+}
+.footer a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  color: rgb(182, 181, 181);
+}
+.footer a:hover {
+  color: white;
+}
+.footerBorder div {
+  color: gray;
+  background-color: rgb(35, 34, 34);
+  border-top: 1px solid rgba(77, 77, 77, 0.643);
+  padding: 1rem 5rem;
+}
